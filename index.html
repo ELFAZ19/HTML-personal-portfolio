@@ -157,8 +157,12 @@
     <hr />
 
     <section>
-      <form action="contact.php" method="post">
-        <table border="10">
+      <form
+        action="mailto:elfazdejene@email.com"
+        method="POST"
+        enctype="text/plain"
+      >
+        <table border="0">
           <tr>
             <th colspan="2">
               <h2>Contact Us</h2>
@@ -171,7 +175,7 @@
                 type="email"
                 id="email"
                 name="email"
-                placeholder="email@email.com"
+                placeholder="email@gmail.com"
                 required
               />
             </td>
@@ -185,6 +189,7 @@
                 rows="4"
                 placeholder="message"
                 required
+                style="resize: none"
               ></textarea>
             </td>
           </tr>
